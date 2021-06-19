@@ -1,0 +1,31 @@
+.counter{
+  display: flex;
+  width: 6rem;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  &__button{
+    display: flex;
+    border: 1px solid #3F51B5;
+    padding: 0.25rem;
+    border-radius: 100%;
+    margin: 0 1rem 0 1rem;
+    cursor: pointer;
+
+    &:active{
+      background-color: #3F51B5;
+      color: #a9a7a7;
+      border: 1px solid #a9a7a7;
+    }
+  }
+
+  &__value{
+    font-size: 1.75rem;
+    border: 1px solid #a9a7a7;
+    padding: 0.25rem 0.75rem;
+    border-radius: 100%;
+    color: #3F51B5;
+  }
+
+}

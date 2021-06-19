@@ -1,0 +1,14 @@
+.sizes{
+  display: flex;
+  justify-content: space-between;
+  width: 12rem;
+  margin-bottom: 1rem;
+
+  &__item{
+    border-radius: 0.25rem;
+    border: 1px solid #a9a7a7;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+
+}
